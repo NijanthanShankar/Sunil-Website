@@ -1,0 +1,517 @@
+@font-face{font-family:EMprint-Bold;src:url(../fonts/EMprint-Bold.eot);src:url(../fonts/EMprint-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Bold.woff2) format("woff2"),url(../fonts/EMprint-Bold.woff) format("woff"),url(../fonts/EMprint-Bold.ttf) format("ttf"),url(../fonts/EMprint-Bold.svg#EMprint-Bold) format("svg");font-style:normal;font-weight:700}@font-face{font-family:EMprint-BoldItalic;src:url(../fonts/EMprint-BoldItalic.eot);src:url(../fonts/EMprint-BoldItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-BoldItalic.woff2) format("woff2"),url(../fonts/EMprint-BoldItalic.woff) format("woff"),url(../fonts/EMprint-BoldItalic.ttf) format("ttf"),url(../fonts/EMprint-BoldItalic.svg#EMprint-BoldItalic) format("svg");font-style:italic;font-weight:700}@font-face{font-family:EMprint-CondensedBold;src:url(../fonts/EMprint-CondensedBold.eot);src:url(../fonts/EMprint-CondensedBold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedBold.woff2) format("woff2"),url(../fonts/EMprint-CondensedBold.woff) format("woff"),url(../fonts/EMprint-CondensedBold.ttf) format("ttf"),url(../fonts/EMprint-CondensedBold.svg#EMprint-CondensedBold) format("svg");font-style:normal;font-weight:700}@font-face{font-family:EMprint-CondensedBoldIt;src:url(../fonts/EMprint-CondensedBoldIt.eot);src:url(../fonts/EMprint-CondensedBoldIt.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedBoldIt.woff2) format("woff2"),url(../fonts/EMprint-CondensedBoldIt.woff) format("woff"),url(../fonts/EMprint-CondensedBoldIt.ttf) format("ttf"),url(../fonts/EMprint-CondensedBoldIt.svg#EMprint-CondensedBoldIt) format("svg");font-style:italic;font-weight:700}@font-face{font-family:EMprint-CondensedItalic;src:url(../fonts/EMprint-CondensedItalic.eot);src:url(../fonts/EMprint-CondensedItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedItalic.woff2) format("woff2"),url(../fonts/EMprint-CondensedItalic.woff) format("woff"),url(../fonts/EMprint-CondensedItalic.ttf) format("ttf"),url(../fonts/EMprint-CondensedItalic.svg#EMprint-CondensedItalic) format("svg");font-style:italic;font-weight:300}@font-face{font-family:EMprint-CondensedLight;src:url(../fonts/EMprint-CondensedLight.eot);src:url(../fonts/EMprint-CondensedLight.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedLight.woff2) format("woff2"),url(../fonts/EMprint-CondensedLight.woff) format("woff"),url(../fonts/EMprint-CondensedLight.ttf) format("ttf"),url(../fonts/EMprint-CondensedLight.svg#EMprint-CondensedLight) format("svg");font-style:normal;font-weight:300}@font-face{font-family:EMprint-CondensedLightIt;src:url(../fonts/EMprint-CondensedLightIt.eot);src:url(../fonts/EMprint-CondensedLightIt.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedLightIt.woff2) format("woff2"),url(../fonts/EMprint-CondensedLightIt.woff) format("woff"),url(../fonts/EMprint-CondensedLightIt.ttf) format("ttf"),url(../fonts/EMprint-CondensedLightIt.svg#EMprint-CondensedLightIt) format("svg");font-style:italic;font-weight:300}@font-face{font-family:EMprint-CondensedRegular;src:url(../fonts/EMprint-CondensedRegular.eot);src:url(../fonts/EMprint-CondensedRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedRegular.woff2) format("woff2"),url(../fonts/EMprint-CondensedRegular.woff) format("woff"),url(../fonts/EMprint-CondensedRegular.ttf) format("ttf"),url(../fonts/EMprint-CondensedRegular.svg#EMprint-CondensedRegular) format("svg");font-style:normal;font-weight:300}@font-face{font-family:EMprint-CondensedSemibold;src:url(../fonts/EMprint-CondensedSemibold.eot);src:url(../fonts/EMprint-CondensedSemibold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondensedSemibold.woff2) format("woff2"),url(../fonts/EMprint-CondensedSemibold.woff) format("woff"),url(../fonts/EMprint-CondensedSemibold.ttf) format("ttf"),url(../fonts/EMprint-CondensedSemibold.svg#EMprint-CondensedSemibold) format("svg");font-style:normal;font-weight:demi}@font-face{font-family:EMprint-CondSemiboldIt;src:url(../fonts/EMprint-CondSemiboldIt.eot);src:url(../fonts/EMprint-CondSemiboldIt.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-CondSemiboldIt.woff2) format("woff2"),url(../fonts/EMprint-CondSemiboldIt.woff) format("woff"),url(../fonts/EMprint-CondSemiboldIt.ttf) format("ttf"),url(../fonts/EMprint-CondSemiboldIt.svg#EMprint-CondSemiboldIt) format("svg");font-style:italic;font-weight:demi}@font-face{font-family:EMprint-Light;src:url(../fonts/EMprint-Light.eot);src:url(../fonts/EMprint-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Light.woff2) format("woff2"),url(../fonts/EMprint-Light.woff) format("woff"),url(../fonts/EMprint-Light.ttf) format("ttf"),url(../fonts/EMprint-Light.svg#EMprint-Light) format("svg");font-style:normal;font-weight:300}@font-face{font-family:EMprint-LightItalic;src:url(../fonts/EMprint-LightItalic.eot);src:url(../fonts/EMprint-LightItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-LightItalic.woff2) format("woff2"),url(../fonts/EMprint-LightItalic.woff) format("woff"),url(../fonts/EMprint-LightItalic.ttf) format("ttf"),url(../fonts/EMprint-LightItalic.svg#EMprint-LightItalic) format("svg");font-style:italic;font-weight:300}@font-face{font-family:EMprint-Regular;src:url(../fonts/EMprint-Regular.eot);src:url(../fonts/EMprint-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Regular.woff2) format("woff2"),url(../fonts/EMprint-Regular.woff) format("woff"),url(../fonts/EMprint-Regular.ttf) format("ttf"),url(../fonts/EMprint-Regular.svg#EMprint-Regular) format("svg");font-style:normal;font-weight:300}@font-face{font-family:EMprint-RegularItalic;src:url(../fonts/EMprint-RegularItalic.eot);src:url(../fonts/EMprint-RegularItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-RegularItalic.woff2) format("woff2"),url(../fonts/EMprint-RegularItalic.woff) format("woff"),url(../fonts/EMprint-RegularItalic.ttf) format("ttf"),url(../fonts/EMprint-RegularItalic.svg#EMprint-RegularItalic) format("svg");font-style:italic;font-weight:300}@font-face{font-family:EMprint-Semibold;src:url(../fonts/EMprint-Semibold.eot);src:url(../fonts/EMprint-Semibold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Semibold.woff2) format("woff2"),url(../fonts/EMprint-Semibold.woff) format("woff"),url(../fonts/EMprint-Semibold.ttf) format("ttf"),url(../fonts/EMprint-Semibold.svg#EMprint-Semibold) format("svg");font-style:normal;font-weight:demi}@font-face{font-family:EMprint-SemiboldItalic;src:url(../fonts/EMprint-SemiboldItalic.eot);src:url(../fonts/EMprint-SemiboldItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-SemiboldItalic.woff2) format("woff2"),url(../fonts/EMprint-SemiboldItalic.woff) format("woff"),url(../fonts/EMprint-SemiboldItalic.ttf) format("ttf"),url(../fonts/EMprint-SemiboldItalic.svg#EMprint-SemiboldItalic) format("svg");font-style:italic;font-weight:demi}@font-face{font-family:EMprint;src:url(../fonts/EMprint-Bold.eot);src:url(../fonts/EMprint-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Bold.woff2) format("woff2"),url(../fonts/EMprint-Bold.woff) format("woff"),url(../fonts/EMprint-Bold.ttf) format("ttf"),url(../fonts/EMprint-Bold.svg#EMprint-Bold) format("svg");font-style:normal;font-weight:700}@font-face{font-family:EMprint;src:url(../fonts/EMprint-BoldItalic.eot);src:url(../fonts/EMprint-BoldItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-BoldItalic.woff2) format("woff2"),url(../fonts/EMprint-BoldItalic.woff) format("woff"),url(../fonts/EMprint-BoldItalic.ttf) format("ttf"),url(../fonts/EMprint-BoldItalic.svg#EMprint-BoldItalic) format("svg");font-style:italic;font-weight:700}@font-face{font-family:EMprint;src:url(../fonts/EMprint-Light.eot);src:url(../fonts/EMprint-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Light.woff2) format("woff2"),url(../fonts/EMprint-Light.woff) format("woff"),url(../fonts/EMprint-Light.ttf) format("ttf"),url(../fonts/EMprint-Light.svg#EMprint-Light) format("svg");font-style:normal;font-weight:300}@font-face{font-family:EMprint;src:url(../fonts/EMprint-LightItalic.eot);src:url(../fonts/EMprint-LightItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-LightItalic.woff2) format("woff2"),url(../fonts/EMprint-LightItalic.woff) format("woff"),url(../fonts/EMprint-LightItalic.ttf) format("ttf"),url(../fonts/EMprint-LightItalic.svg#EMprint-LightItalic) format("svg");font-style:italic;font-weight:300}@font-face{font-family:EMprint;src:url(../fonts/EMprint-Regular.eot);src:url(../fonts/EMprint-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Regular.woff2) format("woff2"),url(../fonts/EMprint-Regular.woff) format("woff"),url(../fonts/EMprint-Regular.ttf) format("ttf"),url(../fonts/EMprint-Regular.svg#EMprint-Regular) format("svg");font-style:normal;font-weight:400}@font-face{font-family:EMprint;src:url(../fonts/EMprint-RegularItalic.eot);src:url(../fonts/EMprint-RegularItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-RegularItalic.woff2) format("woff2"),url(../fonts/EMprint-RegularItalic.woff) format("woff"),url(../fonts/EMprint-RegularItalic.ttf) format("ttf"),url(../fonts/EMprint-RegularItalic.svg#EMprint-RegularItalic) format("svg");font-style:italic;font-weight:400}@font-face{font-family:EMprint;src:url(../fonts/EMprint-Semibold.eot);src:url(../fonts/EMprint-Semibold.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-Semibold.woff2) format("woff2"),url(../fonts/EMprint-Semibold.woff) format("woff"),url(../fonts/EMprint-Semibold.ttf) format("ttf"),url(../fonts/EMprint-Semibold.svg#EMprint-Semibold) format("svg");font-style:normal;font-weight:600}@font-face{font-family:EMprint;src:url(../fonts/EMprint-SemiboldItalic.eot);src:url(../fonts/EMprint-SemiboldItalic.eot?#iefix) format("embedded-opentype"),url(../fonts/EMprint-SemiboldItalic.woff2) format("woff2"),url(../fonts/EMprint-SemiboldItalic.woff) format("woff"),url(../fonts/EMprint-SemiboldItalic.ttf) format("ttf"),url(../fonts/EMprint-SemiboldItalic.svg#EMprint-SemiboldItalic) format("svg");font-style:italic;font-weight:600}
+
+
+@media (prefers-reduced-motion: no-preference){
+:root {
+  scroll-behavior: smooth;
+}
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f1f2f2;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #25136d;
+  border-radius: 10px;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #eaeced;
+}
+.page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container {
+    margin: 6vh 6vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88vh;
+    max-width: 1268px;
+    /* max-height: 674px; */
+    display: flex;
+}
+.card-main{
+    width: 40%;
+    height: 80%;
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.card-main:after, .card-main:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card-main:before {
+    top: 0;
+    left: 0;
+    box-shadow: 10px 10px 15px rgba(0,0,0,.05);
+    border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    -webkit-border-radius: 0 0 4px 0;
+    -khtml-border-radius: 0 0 4px 0;
+    z-index: 1;
+}
+.card-main:after {
+    left: -15px;
+    top: -15px;
+    background: linear-gradient(
+        135deg,
+        #00b2b2 0%,
+        #00b2b20f 100%
+      );
+}
+.card-profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+.profile-img{
+    width: 100%;
+    height: 57%;
+    max-width: 100%;
+    background-image: url('../images/dr-sunil-eshwar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-img::before, .profile-img::after{
+    left: -25%;
+    bottom: -63%;
+    width: 100%;
+    height: 70%;
+    content: "";
+    position: absolute;
+    background: #fff;
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+}
+.profile-img::after{
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    left: auto;
+    right: -25%;
+}
+
+.profile-subtitle{
+    width: 100%;
+    height: 43%;
+    padding: 20px 0px 10px;
+    margin: 0;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-subtitle > div{
+    width: 96%;
+    margin: 0 auto;
+}
+.profile-subtitle h1{
+    color: #000000;
+    padding: 0px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    font-family: EMprint-Regular;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.profile-subtitle h5{
+    color: #066fc9;
+    padding: 0px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: EMprint-Semibold;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.profile-subtitle .social-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+.profile-subtitle .social-links li a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+.profile-subtitle-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: auto;
+    position: relative;
+}
+.profile-subtitle-btn-1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    position: relative;
+    padding: 10px 0;
+}
+.profile-subtitle-btn::before, .profile-subtitle-btn-1::before{
+    content: "";
+    top: 0;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+}
+.profile-subtitle-btn a{
+    color: #000000;
+    padding: 10px 4px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: EMprint-Semibold;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 0px;
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 14px;
+    position: relative;
+}
+.profile-subtitle-btn-1 a{
+    color: #000000;
+    padding: 0px 0px 2px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: EMprint-Semibold;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 0px;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+}
+.profile-subtitle-btn-1 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+}
+.profile-subtitle-btn a i{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.profile-subtitle-btn-1 i{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.profile-subtitle-btn a span{
+    text-align: left;
+}
+.profile-subtitle-btn a:first-child::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: radial-gradient(ellipse at top, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+}
+.profile-subtitle-btn a:hover{
+    color: #066fc9;
+}
+.profile-subtitle-btn-1 div a:hover{
+    color: #066fc9;
+}
+
+.profile-details{
+    width: 60%;
+    float: right;
+    height: 90%;
+    background-color: #ffffff;
+    margin: 0px 0;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center; */
+    overflow-y: auto;
+    padding: 10px 0 30px;
+}
+.profile-details .profile-details-div{
+    width: 90%;
+    height: auto;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #f1f2f2;
+}
+.profile-details .profile-details-div:last-child{
+    border-bottom: none;
+}
+.profile-details .profile-details-div h4{
+    color: #000000;
+    padding: 0px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-family: EMprint-Semibold;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 20px;
+    text-decoration: none;
+    text-align: left;
+}
+.profile-details .profile-details-div h4 span{
+    font-size: 0.9rem;
+    color: #066fc9;
+    font-style: italic;
+}
+.profile-details .profile-details-div .profile-details-inn-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.profile-details .profile-details-div .profile-details-inn-div img{
+    width: auto;
+    height: auto;
+    max-width: 20%;
+}
+.profile-details .profile-details-div .profile-details-inn-div  p{
+    color: #000000;
+    padding: 0px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-family: EMprint-Regular;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 0px;
+    text-decoration: none;
+    text-align: left;
+    width: 60%;
+}
+.profile-details .profile-details-div .profile-details-inn-div .get-location-btn{
+    display: flex;
+    align-items: end;
+    width: 20%;
+}
+.profile-details .profile-details-div .profile-details-inn-div .get-location-btn a{
+    color: #333333;
+    padding: 0px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-family: EMprint-Semibold;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 0 0 0px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+.profile-details .profile-details-div .profile-details-inn-div .get-location-btn a i{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.profile-details .profile-details-div .profile-details-inn-div .get-location-btn a:hover{
+    color: #066fc9;
+    border-color: #066fc9;
+}
+.profile-details .video{
+    width: 100%;
+    margin: 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-details video{
+    width: 90%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    .card-main{
+        width: 100%;
+        height: auto;
+    }
+    .profile-details{
+        width: 100%;
+        height: auto;
+        margin: 10px 0 0;
+        padding: 0px 0 10px;
+    }
+    .page{
+        height: auto;
+        width: 100%;
+        overflow: auto;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: unset;
+        margin: 0 0;
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-img{
+        height: 300px;
+        overflow: initial;
+    }
+    .card-main:after{
+        left: -10px;
+        top: -10px;
+    }
+    .profile-subtitle{
+        padding: 5px 0px 5px;
+    }
+    .profile-subtitle h1{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin: 0 0 5px;
+    }
+    .profile-subtitle h5{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin: 0 0 20px;
+    }
+    .profile-subtitle .social-links{
+        margin: 0px 0 15px;
+    }
+    .profile-subtitle-btn a{
+        font-size: 0.8rem;
+        gap: 5px;
+        line-height: 1.2rem;
+        padding: 6px 5px;
+    }
+    .profile-subtitle-btn a i{
+        font-size: 0.85rem;
+    }
+    .profile-subtitle-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .profile-subtitle-btn a:first-child::before{
+        background: radial-gradient(ellipse at top, #919191 0%, rgb(183 182 182 / 17%) 70%);
+    }
+    .profile-details .profile-details-div h4{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        display: grid;
+        margin: 0 0 10px;
+    }
+    .profile-details .profile-details-div h4 span{
+        font-size: 0.8rem;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div img{
+        max-width: 100%;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div p{
+        width: 100%;
+        font-size: 0.75rem;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div .get-location-btn{
+        width: 100%;
+        justify-content: end;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div .get-location-btn a{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .profile-details .profile-details-div .profile-details-inn-div .get-location-btn a i{
+        font-size: 0.85rem;
+        margin: 0 0 0 3px;
+    }
+    .profile-details video{
+        width: 90%;
+        height: auto;
+    }
+    .profile-subtitle-btn-1::before{
+        height: 2px;
+    }
+    .profile-subtitle-btn-1 div{
+        grid-template-columns: 1fr;
+        gap: 1px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
